@@ -20,8 +20,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
-      background: linear-gradient(135deg, #3ca4ff, #2c3e50);
+      min-height: 90vh;
+      background: linear-gradient(135deg, black,white);
       padding: 20px;
     }
 

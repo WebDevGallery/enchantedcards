@@ -23,7 +23,7 @@ session_start();
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      background: linear-gradient(135deg, #3ca4ff, #2c3e50);
+      background: linear-gradient(135deg, white, black);
       padding: 20px;
     }
 

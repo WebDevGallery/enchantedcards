@@ -29,16 +29,16 @@ function loginHeaderRender($conn) {
                 <a class="navbar-brand" href="index.php">BizVizCards</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon" style="color:black; background-color:black;"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">About BizVizCard</a>
+                            <a class="nav-link" href="https://bizvizcards.com/home.php#about">About BizVizCard</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="https://bizvizcards.com/home.php#contact">Contact</a>
                         </li>';
 
     // Add 'My Profile' with restricted access to different CMS based on the plan

@@ -1,20 +1,22 @@
 <?php
-// Function to render the subscription plans for the user
-function renderSubscription($conn) {
+// Check if the function is already defined
+if (!function_exists('renderSubscription')) {
+    // Function to render the subscription plans for the user
+    function renderSubscription($conn) {
 
-    if (!isset($_SESSION['id'])) {
-        header("Location: login.php"); // Redirect if not logged in
-        exit();
-    }
+        if (!isset($_SESSION['id'])) {
+            header("Location: login.php"); // Redirect if not logged in
+            exit();
+        }
 
-    $user_id = $_SESSION['id'];
+        $user_id = $_SESSION['id'];
 
-    // Fetch available subscription plans from the database
-    $query_plans = "SELECT * FROM plans";
-    $plans_result = mysqli_query($conn, $query_plans);
+        // Fetch available subscription plans from the database
+        $query_plans = "SELECT * FROM plans";
+        $plans_result = mysqli_query($conn, $query_plans);
 
-    // Output the HTML for the subscription plans
-    echo '
+        // Output the HTML for the subscription plans
+        echo '
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -412,5 +414,6 @@ WHAT WE EXPECT FROM YOU:
   
 </body>
 </html>';
+}
 }
 ?>

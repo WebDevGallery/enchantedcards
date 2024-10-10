@@ -15,6 +15,7 @@
 
 * {
   box-sizing: border-box;
+  transition: all 1s;
 }
 
 html {
@@ -51,6 +52,8 @@ body {
 .plansHero__subtitle {
   margin: 0;
 }
+
+
 
 .planItem {
   --border: 1px solid #e6e6e6;

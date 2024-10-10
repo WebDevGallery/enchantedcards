@@ -142,7 +142,7 @@ if (!empty($profile['profile_picture'])) {
 
     .cms button {
       padding: 10px;
-      width: 30%;
+      width: 50%;
       background-color: #3ca4ff;
       border: none;
       border-radius: 8px;
